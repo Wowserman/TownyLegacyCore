@@ -1,0 +1,106 @@
+name: TownyLegacyCore
+author: Wowserman
+main: com.wowserman.TownyLegacy
+version: 2.0
+softdepend: [Essentials, Towny, Vault]
+commands:
+  jobs-booster:
+    aliases: []
+  print:
+    aliases: []
+  rename:
+    aliases: []
+  glow:
+    aliases: []
+  store:
+    aliases: []
+  reclaim:
+    aliases: []
+  donator-chat:
+    aliases: [dc, dchat]
+  chat-color:
+    aliases: [cc, ccolor, colorchat, chatc, chatcolor]
+  server-motd:
+    aliases: [smotd, s-motd, sm, set-motd, set-description]
+  player-shop:
+    aliases: [ps, shop, playershop, playershops, shops]
+  announcer:
+    aliases: [announce]
+  drop-party:
+    aliases: [dp, dropparty, start-party]
+  vote:
+    aliases: []
+  referal:
+    aliases: [ref, refer]
+  info:
+    aliases: [traveller, citizen, knight, noble, royal, hero, legend, mystic]
+  staff-chat:
+    aliases: [sc, schat]
+  global:
+    aliases: []
+permissions:
+  extras.glow.all:
+    description: Grants access to all Glow Colors.
+    default: false
+    children:
+      extras.glow.red: true
+      extras.glow.yellow: true
+      extras.glow.orange: true
+      extras.glow.green: true
+      extras.glow.blue: true
+      extras.glow.purple: true
+      extras.glow.white: true
+      extras.glow.gray: true
+      extras.glow.black: true
+  extras.chatcolor.all:
+    description: Grants access to all Chat Colors.
+    default: false
+    children:
+      extras.chatcolor.red: true
+      extras.chatcolor.yellow: true
+      extras.chatcolor.orange: true
+      extras.chatcolor.green: true
+      extras.chatcolor.blue: true
+      extras.chatcolor.purple: true
+  extras.donatorchat:
+    description: Grants access to Donator Chat.
+    default: false
+  extras.job-booster:
+    description: Grants access to managing Job Boosters.
+    default: false
+  extras.motd:
+    description: Grants access to managing the MOTD.
+    default: false
+  extras.print:
+    description: Grants access to Print out faked messages.
+    default: false
+  extras.rename:
+    description: Grants access to Rename itemstacks.
+    default: false
+  extras.store:
+    description: Grants access to Store Chests away for Players to Reclaim.
+    default: false
+  extras.playerwatcher:
+    description: Grants access to the Player Watcher.
+    default: false
+  extras.shopbypass:
+    description: Grants access to Bypass Restrictions at Shop.
+    default: false
+  extras.playershop:
+    description: Grants access to Change the Player Shop.
+    default: false
+  extras.printingpress:
+    description: Grants access to use Printing Press.
+    default: false
+  extras.announcer:
+    description: Grants access to Announcements.
+    default: false
+  extras.dropparty:
+    description: Grants access to Start Drop Parties.
+    default: false
+  extras.staffchat:
+    description: Grants access to Staff Chat.
+    default: false
+  extras.flybypass:
+    description: Grants Bypassing Fly Restrictions.
+    default: false
